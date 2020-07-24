@@ -23,7 +23,7 @@ const url = config.mongoUrl;
 const connect = mongoose.connect(url);
 
 connect.then((db)=>{
-  console.log("Connected correctly to Serevr");
+  console.log("Connected correctly to Server");
 },(err) => {console.log(err);})
 
 var app = express();
